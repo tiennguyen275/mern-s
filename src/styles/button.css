@@ -1,0 +1,48 @@
+.add-user-btn img {
+  width: 20px;
+  filter: invert(100%); /* Màu trắng mặc định */
+  transition: filter 0.3s ease; /* Chuyển tiếp mượt */
+}
+.add-user-btn:hover {
+  background-color: gray;
+  box-shadow: 1.5px 1.25px rgba(0, 0, 0, 0.065);
+  filter: invert(100%);
+}
+
+.add-user-btn:active {
+  background-color: gray;
+  box-shadow: 1.5px 1.25px rgba(0, 0, 0, 0.065);
+  filter: invert(0%); /* Đổi về màu đen khi hover */
+}
+.actionButton button {
+  margin: 0 10px;
+}
+
+.submit-user-btn img {
+  filter: invert(100%); /* Màu trắng mặc định */
+  transition: filter 0.3s ease; /* Chuyển tiếp mượt */
+}
+.submit-user-btn:hover {
+  background-color: gray;
+  box-shadow: 1.5px 1.25px rgba(0, 0, 0, 0.065);
+  filter: invert(100%);
+}
+
+.submit-user-btn:active {
+  background-color: gray;
+  box-shadow: 1.5px 1.25px rgba(0, 0, 0, 0.065);
+  filter: invert(0%); /* Đổi về màu đen khi hover */
+}
+.actionButton button {
+  margin: 0 10px;
+}
+.submit-user-btn img.btn-back {
+  margin-right: 5px;
+  width: 10px;
+}
+.btn-submit-user {
+  padding: 5px 5px;
+}
+.btn-submit-user:hover {
+  background-color: rgb(15, 156, 249);
+}
